@@ -1,0 +1,21 @@
+@use "../../../assets/sass/variables" as *;
+.header {
+  height: 5%;
+  .logo {
+    background: #8e2bbc;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menubar {
+    text-align: right;
+    font-size: 18px;
+    color: #8e2bbc;
+    font-weight: bold;
+
+    background-color: rgb(218, 186, 218);
+  }
+}

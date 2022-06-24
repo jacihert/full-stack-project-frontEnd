@@ -1,0 +1,26 @@
+@use "../../../assets/sass/variables" as *;
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__caption {
+    color: indigo;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 50px;
+  }
+
+  &__input {
+    height: 30px;
+    width: 20rem;
+    background-color: #d5c2de;
+    border: 0px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px;
+    padding: 8px;
+  }
+}
