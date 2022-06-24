@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+> # full-stack-project : # "Courseology" application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Courseology" application is used to manage training courses. The home page lists all the courses available. There is a "Search" feature on the home page, to search for courses.
 
-## Available Scripts
+ Clicking on the footer causes to toggle between 2 Types of users that could use this application. 
+- The administrator account called the "Courseology Account". They have the privileged access to the following functions:
+      ⦁	Create a new course 
+      ⦁	Delete a course that may have expired
 
-In the project directory, you can run:
+- Users who are looking for training courses that they may be interested in. They have special access to "Mark courses as favourites"
 
-### `npm start`
+Some Snapshots :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Full stack Project Home Page](https://user-images.githubusercontent.com/102464820/175567144-f37d2a6b-ff11-42b2-becc-d0a9ec339395.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![View Course   Mark as Favourite](https://user-images.githubusercontent.com/102464820/175567588-4584c25e-34c9-4541-be1f-e6cb55e50f44.png)
 
-### `npm test`
+![Course marked as favourite](https://user-images.githubusercontent.com/102464820/175567175-3f773185-49a3-4ec7-b51f-900f2c3a6d96.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Home page-admin](https://user-images.githubusercontent.com/102464820/175567128-0643329b-b84a-4906-9539-65fad76fc974.png)
 
-### `npm run build`
+![View Course   Delete](https://user-images.githubusercontent.com/102464820/175567790-4ad8926b-058e-40b1-ab45-9fd3bfdf1bba.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Create Course](https://user-images.githubusercontent.com/102464820/175567965-9b3318f8-60f7-4fe6-b508-146d32b89a3a.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Create Course-validated](https://user-images.githubusercontent.com/102464820/175567987-07148302-3a81-4ee0-afe0-2a2b3ee268eb.png)
